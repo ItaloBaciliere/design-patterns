@@ -8,7 +8,7 @@ Each pattern acts like a blueprint that you can customize to suit your applicati
 
 ---
 
-## 📚 Catalog of Design Patterns
+# 📚 Catalog of Design Patterns
 
 ### 🧱 Creational Patterns
 
@@ -20,7 +20,6 @@ These patterns provide various object creation mechanisms, increasing flexibilit
 - [ ] 🧬 **Prototype**
 - [ ] 🔒 **Singleton**
 
----
 
 ### 🧩 Structural Patterns
 
@@ -34,7 +33,6 @@ These patterns explain how to assemble objects and classes into larger, more eff
 - [ ] 🪶 **Flyweight**
 - [ ] 🛡️ **Proxy**
 
----
 
 ### 🤝 Behavioral Patterns
 
