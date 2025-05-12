@@ -45,7 +45,7 @@ These patterns handle communication between objects and help manage complex work
 - [ ] 💾 **Memento**
 - [ ] 👀 **Observer**
 - [ ] 🧠 **State**
-- [ ] 🧭 **Strategy**
+- [x] 🧭 **Strategy**
 - [ ] 🧪 **Template Method**
 - [ ] 🎫 **Visitor**
 
