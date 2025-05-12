@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: strategy
+    build: .
+    ports:
+      - "80:8080"
+    restart: always

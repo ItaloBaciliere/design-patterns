@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "07e692b0-0c9a-4d1e-a196-c6c913ce00ba",
+		"name": "Design Patterns - Strategy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40375825"
+	},
+	"item": [
+		{
+			"name": "Discord",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"channel\": \"discord\",\r\n    \"destination\": \"#leleuDoPneu\",\r\n    \"message\": \"can you play any games?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/v1/notifications",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"v1",
+						"notifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"channel\": \"email\",\r\n    \"destination\": \"your.email@gmail.com\",\r\n    \"message\": \"New products have been added to your cart\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/v1/notifications",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"v1",
+						"notifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SMS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"channel\": \"sms\",\r\n    \"destination\": \"+5531945717799\",\r\n    \"message\": \"verification code to amazon web service 5313-6434\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/v1/notifications",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"v1",
+						"notifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Twitter",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"channel\": \"twitter\",\r\n    \"destination\": \"@unclebobmartin\",\r\n    \"message\": \"you are the best!!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/v1/notifications",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"v1",
+						"notifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WhatsApp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"channel\": \"sms\",\r\n    \"destination\": \"+5531945717799\",\r\n    \"message\": \"Pay me my money you son of a bitch 🔪\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/v1/notifications",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"v1",
+						"notifications"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
