@@ -25,6 +25,8 @@ In this example:
 
 This pattern improves code flexibility and scalability while keeping responsibilities well-separated.
 
+[Guru - Strategy](https://refactoring.guru/design-patterns/strategy)
+
 
 
 # 🛠 Technologies Used
